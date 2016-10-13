@@ -1,0 +1,36 @@
+/* TITRES*/
+
+.bigtitle{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: bold;
+   letter-spacing: 7px;
+   font-size: 40px;
+   color:$darkgrey;
+   text-align: center;
+   text-transform: uppercase;
+   position: relative;
+}
+.bigtitle:after{
+         content: url(../images/hr-title.png);
+         display: block;
+         position: absolute;
+         top: 46px;
+         width: 100%;
+         height:69px;
+         text-align: center;
+      }
+.soustitre{
+      position: relative;
+      text-align: center;
+      margin-top:50px;
+      margin-bottom:60px;
+         span {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 20px;
+         }
+   }
+
+.white{color:white;}
+.grisleger{color:#c9c9c9;}

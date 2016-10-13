@@ -1,0 +1,44 @@
+/* structure des boutons*/
+
+.btn{
+   display: block;
+   padding: 15px 20px;
+   border: none;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 12px;
+   font-weight: bold;
+   margin: 0 auto;
+   position:relative;
+
+   }
+
+   .vert{
+      background: $vert;
+      color: white;
+      box-shadow: 0 6px darken($vert,10%);
+      transition: none;
+      &:hover{
+         box-shadow: 0 4px darken($vert,10%);
+         top:2px;
+      }
+   }
+      .gris{
+         background: $darkgrey;
+         color: white;
+         box-shadow: 0 6px darken($darkgrey,10%);
+         transition: none;
+         &:hover{
+            box-shadow: 0 4px darken($darkgrey,10%);
+            top:2px;
+         }
+
+   }
+
+   .btn:after {
+       content: '';
+       position: absolute;
+       z-index: -1;
+       transition: all 300ms ease-in-out;
+
+   }
